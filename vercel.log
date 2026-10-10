@@ -1,0 +1,32 @@
+STDOUT
+https://frontend-g5a7q1m7h-golisrijas-projects.vercel.app
+
+STDERR
+Vercel CLI 59.1.3 (Node.js 22.14.0)
+
+  Directory       ~\OneDrive\Desktop\AISTool\backend\generated_projects\online_shopping_management_system\frontend
+
+Loading teamsâ€¦
+  Team            golisrijas-projects
+Searching for existing projectsâ€¦
+Searching for existing projectsâ€¦
+
+âœ“ Linked          golisrijas-projects/frontend
+
+Retrieving projectâ€¦
+> Downloading `development` environment variables for golisrijas-projects/frontend
+Downloading
+
+âœ“ Created         .env.local file and added it to .gitignore
+Deploying golisrijas-projects/frontend
+Uploading [--------------------] (0.0B/7.5KB)
+Uploading [========------------] (3.2KB/7.5KB)
+Uploading [====================] (7.5KB/7.5KB)
+  Inspect         https://vercel.com/golisrijas-projects/frontend/68pFyaTKudFUmi4txWWmshbecYGz
+  Production      https://frontend-g5a7q1m7h-golisrijas-projects.vercel.app
+Buildingâ€¦
+[2K[1A[2K[G  Production      https://frontend-g5a7q1m7h-golisrijas-projects.vercel.app
+Completingâ€¦
+â–² Aliased         https://frontend-mu-dusky-fprlm339b7.vercel.app
+
+âœ“ Ready in 5s

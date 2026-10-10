@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Management System</title>
+    
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <nav class="navbar">
+                <div class="logo">Online Shopping Management System</div>
+                <ul class="nav-links">
+                    <li><a href="#/dashboard" class="active">Dashboard</a></li>
+                    <li><a href="#/products">Products</a></li>
+                    <li><a href="#/orders">Orders</a></li>
+                    <li><a href="#/settings">Settings</a></li>
+                </ul>
+                <div class="user-avatar">
+                    <img src="avatar.jpg" alt="User Avatar">
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div id="content">
+                <section class="dashboard">
+                    <h2>Welcome, John Doe</h2>
+                    <div class="cards">
+                        <div class="card">
+                            <h3>Products</h3>
+                            <p>Total Products: 50</p>
+                            <button class="action-btn">View</button>
+                        </div>
+                        <div class="card">
+                            <h3>Orders</h3>
+                            <p>Total Orders: 10</p>
+                            <button class="action-btn">View</button>
+                        </div>
+                        <div class="card">
+                            <h3>Wish List</h3>
+                            <p>Total Items: 3</p>
+                            <button class="action-btn">View</button>
+                        </div>
+                    </div>
+                </section>
+                <section class="products">
+                    <h2>Products</h2>
+                    <form class="search-form">
+                        <input type="text" placeholder="Search Products..." />
+                        <button type="submit">Search</button>
+                    </form>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Title</th>
+                                <th>Price</th>
+                                <th>Category</th>
+                                <th>Stock</th>
+                                <th>Action</th>
+
+<script src="js/config.js" defer></script>
+<script src="js/app.js" defer></script>
+</body>
+</html>
